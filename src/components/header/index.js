@@ -13,13 +13,13 @@ const index = ({ userPhoto }) => {
   return (
     <div className="header">
       <div className="header__logo">
-        <img src={headLogo} alt="Google Drive" />
+        <img src={headLogo} alt="Cloud" />
         <span>GalaxZ</span>
       </div>
       <div className="header__searchContainer">
         <div className="header__searchBar">
           <SearchIcon />
-          <input type="text" placeholder="Search in Drive" />
+          <input type="text" placeholder="Search in Cloud" />
           <ExpandMoreIcon />
         </div>
       </div>
